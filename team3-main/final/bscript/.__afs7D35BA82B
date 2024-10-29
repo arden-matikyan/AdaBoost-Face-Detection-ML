@@ -1,0 +1,10 @@
+#!/bin/bash
+
+directory="../demo/dataset/"
+
+for image in "$directory"/*; do
+    if file "$image" | grep -qE 'image'; then
+        base_name=$(basename "$image" | cut -d. -f1)
+        enee408mim2txt "$image"  
+    fi
+done

@@ -1,0 +1,10 @@
+Tests started on:
+Mon 13 May 2024 06:02:11 PM EDT
+-----------------------------------------------------
+Test result for:
+/homes/a/m/amatikya/home/enee408m/monday/team3/final/test/test01
+-----------------------------------------------------
+Error comparison result for: 
+/homes/a/m/amatikya/home/enee408m/monday/team3/final/test/test01
+Tests completed on:
+Mon 13 May 2024 06:02:12 PM EDT

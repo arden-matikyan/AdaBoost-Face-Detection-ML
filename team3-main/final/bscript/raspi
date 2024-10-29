@@ -1,0 +1,8 @@
+#!/bin/bash
+
+read -p "Enter your directory ID: " directory_id
+
+ssh_command="ssh ${directory_id}@dspcad-emb-3.ece.umd.edu"
+
+eval $ssh_command
+

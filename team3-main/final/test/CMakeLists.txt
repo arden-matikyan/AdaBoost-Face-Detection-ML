@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 2.8)
+project(classifier)
+
+
+IF(EXISTS ${PROJECT_SOURCE_DIR}/test/test01)
+    ADD_SUBDIRECTORY(test01)
+ENDIF(EXISTS ${PROJECT_SOURCE_DIR}/test/test01)
+
+IF(EXISTS ${PROJECT_SOURCE_DIR}/test/test02)
+    ADD_SUBDIRECTORY(test02)
+ENDIF(EXISTS ${PROJECT_SOURCE_DIR}/test/test02)
+
+IF(EXISTS ${PROJECT_SOURCE_DIR}/test/test03)
+    ADD_SUBDIRECTORY(test03)
+ENDIF(EXISTS ${PROJECT_SOURCE_DIR}/test/test03)
+
+

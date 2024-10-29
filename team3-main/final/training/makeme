@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+g++ -std=c++17 -c test.cpp -o test.o $(pkg-config --cflags opencv4)
+g++ -std=c++17 -c featureUtil.cpp -o featureUtil.o $(pkg-config --cflags opencv4)
+g++ -std=c++17 -c procImages.cpp -o procImages.o $(pkg-config --cflags opencv4)
+g++ -std=c++17 -c weakClassifier.cpp -o weakClassifier.o $(pkg-config --cflags opencv4)
+g++ -std=c++17 -c adaBoost.cpp -o adaBoost.o $(pkg-config --cflags opencv4)
+g++ -std=c++17 -c cascadeClassifier.cpp -o cascadeClassifier.o $(pkg-config --cflags opencv4)
+g++ -std=c++17 -c strongClassifier.cpp -o strongClassifier.o $(pkg-config --cflags opencv4)
+g++ -std=c++17 -o test.exe test.o featureUtil.o procImages.o weakClassifier.o adaBoost.o strongClassifier.o cascadeClassifier.o -lstdc++fs $(pkg-config --libs opencv4)

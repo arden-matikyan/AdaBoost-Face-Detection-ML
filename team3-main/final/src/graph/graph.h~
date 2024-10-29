@@ -1,0 +1,52 @@
+#ifndef graph_h
+#define graph_h
+
+#include <vector>
+extern "C" {
+#include "welt_c_basic.h"
+#include "welt_c_actor.h"
+#include "welt_c_fifo.h"  
+#include "welt_c_util.h"
+}
+
+#include "classifier.h"
+
+#define BUFFER_CAPACITY 1024
+
+/************* ACTORS ************/
+#define ACTOR_CLASSIFIER  1
+
+/************* FIFOS ************/
+#define FIFO_I 1
+#define FIFO_A 2
+#define FIFO_C 3
+
+#define ACTOR_COUNT 1
+#define FIFO_COUNT  3
+
+class graph : public welt_cpp_graph{
+  
+public:
+  graph();
+
+  ~graph();
+  
+  void scheduler() override;
+
+  void setIters(int num_iter);
+
+  int getIters();
+
+  
+
+private:
+ 
+};
+
+void graph_scheduler();
+
+void graph_terminate();
+
+
+#endif
+

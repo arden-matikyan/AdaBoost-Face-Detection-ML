@@ -1,0 +1,21 @@
+#!/bin/bash
+
+cd "$(dirname "$0")"/..
+
+if [ "$#" -ne 1 ]; then
+    echo "Usage: $0 [native|raspi]"
+    exit 1
+fi
+
+if [ "$1" == "raspi" ]; then
+    export UXTARGET=raspi
+elif [ "$1" == "native" ]; then
+    export UXTARGET=native
+else
+    echo "Invalid target specified. Use 'native' or 'raspi'."
+    exit 1
+fi
+
+enee408m_proj_config
+
+enee408m_makeme

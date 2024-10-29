@@ -1,0 +1,10 @@
+#!/bin/bash
+
+directory="."
+
+for image in "$directory"/*; do
+    if file "$image" | grep -qE 'image'; then
+        base_name=$(basename "$image" | cut -d. -f1)
+        enee408mim2txt "$image" > "$directory/$base_name.txt"
+    fi
+done

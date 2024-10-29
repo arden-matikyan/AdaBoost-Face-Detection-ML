@@ -1,0 +1,2 @@
+/usr/bin/ar qc libclassifier.a  CMakeFiles/classifier.dir/actors/classifier.cpp.o CMakeFiles/classifier.dir/actors/file_sink.cpp.o CMakeFiles/classifier.dir/actors/txt_img_read.cpp.o CMakeFiles/classifier.dir/util2/cascadeClassifier.cpp.o CMakeFiles/classifier.dir/util2/featureUtil.cpp.o CMakeFiles/classifier.dir/util2/strongClassifier.cpp.o CMakeFiles/classifier.dir/util2/weakClassifier.cpp.o CMakeFiles/classifier.dir/graph/graph.cpp.o
+/usr/bin/ranlib libclassifier.a

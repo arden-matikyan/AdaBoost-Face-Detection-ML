@@ -1,0 +1,9 @@
+#!/bin/bash
+
+directory="./"
+
+for image in "$directory"/*.png; do
+    base_name=$(basename "$image" .png) 
+    enee408mim2txt "$image"
+done
+

@@ -1,0 +1,499 @@
+The target system is: Linux - 1 - 
+The host system is: Linux - 5.8.0-63-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /dept/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/homes/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /dept/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/homes/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /homes/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_326fb/fast && /usr/bin/make -f CMakeFiles/cmTC_326fb.dir/build.make CMakeFiles/cmTC_326fb.dir/build
+make[1]: Entering directory '/afs/glue.umd.edu/home/glue/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_326fb.dir/testCCompiler.c.o
+/dept/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -Wall -lstdc++ -o CMakeFiles/cmTC_326fb.dir/testCCompiler.c.o   -c /homes/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_326fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_326fb.dir/link.txt --verbose=1
+/dept/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      -rdynamic CMakeFiles/cmTC_326fb.dir/testCCompiler.c.o  -o cmTC_326fb 
+make[1]: Leaving directory '/afs/glue.umd.edu/home/glue/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /homes/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_45c50/fast && /usr/bin/make -f CMakeFiles/cmTC_45c50.dir/build.make CMakeFiles/cmTC_45c50.dir/build
+make[1]: Entering directory '/afs/glue.umd.edu/home/glue/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45c50.dir/CMakeCCompilerABI.c.o
+/dept/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -Wall -lstdc++ -v -o CMakeFiles/cmTC_45c50.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/dept/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
+Target: arm-linux-gnueabihf
+Configured with: /home/dom/projects/crosstool-ng/install/bin/.build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf --with-sysroot=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-arch=armv6 --with-fpu=vfp --with-float=hard --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-88-g8460611' --disable-sjlj-exceptions --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-libsanitizer --with-gmp=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpc=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-isl=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-cloog=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --with-linker-hash-style=gnu --disable-nls --disable-multilib --with-local-prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-long-long --with-arch=armv6 --with-float=hard --with-fpu=vfp
+Thread model: posix
+gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) 
+COLLECT_GCC_OPTIONS='-Wall' '-v' '-o' 'CMakeFiles/cmTC_45c50.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/cc1 -quiet -v -iprefix /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/ -isysroot /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=armv6 -mfloat-abi=hard -mfpu=vfp -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_45c50.dir/CMakeCCompilerABI.c.o -Wall -version -o /tmp/ccC1hwCB.s
+GNU C (crosstool-NG crosstool-ng-1.22.0-88-g8460611) version 4.9.3 (arm-linux-gnueabihf)
+	compiled by GNU C version 4.8.4, GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/include"
+ignoring nonexistent directory "/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot/include"
+ignoring duplicate directory "/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed"
+ignoring duplicate directory "/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include
+ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed
+ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include
+ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/include
+End of search list.
+GNU C (crosstool-NG crosstool-ng-1.22.0-88-g8460611) version 4.9.3 (arm-linux-gnueabihf)
+	compiled by GNU C version 4.8.4, GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: ab6520190aab2eb5dd4fcb2a453dd165
+COLLECT_GCC_OPTIONS='-Wall' '-v' '-o' 'CMakeFiles/cmTC_45c50.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/as -v -march=armv6 -mfloat-abi=hard -mfpu=vfp -meabi=5 -o CMakeFiles/cmTC_45c50.dir/CMakeCCompilerABI.c.o /tmp/ccC1hwCB.s
+GNU assembler version 2.25.1 (arm-linux-gnueabihf) using BFD version (crosstool-NG crosstool-ng-1.22.0-88-g8460611) 2.25.1
+COMPILER_PATH=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-Wall' '-v' '-o' 'CMakeFiles/cmTC_45c50.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+Linking C executable cmTC_45c50
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45c50.dir/link.txt --verbose=1
+/dept/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -v -rdynamic CMakeFiles/cmTC_45c50.dir/CMakeCCompilerABI.c.o  -o cmTC_45c50 
+Using built-in specs.
+COLLECT_GCC=/dept/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
+COLLECT_LTO_WRAPPER=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: /home/dom/projects/crosstool-ng/install/bin/.build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf --with-sysroot=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-arch=armv6 --with-fpu=vfp --with-float=hard --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-88-g8460611' --disable-sjlj-exceptions --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-libsanitizer --with-gmp=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpc=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-isl=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-cloog=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --with-linker-hash-style=gnu --disable-nls --disable-multilib --with-local-prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-long-long --with-arch=armv6 --with-float=hard --with-fpu=vfp
+Thread model: posix
+gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) 
+COMPILER_PATH=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_45c50' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2 -plugin /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so -plugin-opt=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUevbc5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_45c50 /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o -L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3 -L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc -L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib -L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib -L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_45c50.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o
+make[1]: Leaving directory '/afs/glue.umd.edu/home/glue/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include]
+    add: [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed]
+    add: [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include]
+    add: [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include] ==> [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3/include]
+  collapse include dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed] ==> [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed]
+  collapse include dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include] ==> [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/include]
+  collapse include dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/include] ==> [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/include]
+  implicit include dirs: [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3/include;/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed;/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/include;/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /homes/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_45c50/fast && /usr/bin/make -f CMakeFiles/cmTC_45c50.dir/build.make CMakeFiles/cmTC_45c50.dir/build]
+  ignore line: [make[1]: Entering directory '/afs/glue.umd.edu/home/glue/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_45c50.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/dept/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -Wall -lstdc++ -v -o CMakeFiles/cmTC_45c50.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/dept/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: /home/dom/projects/crosstool-ng/install/bin/.build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf --with-sysroot=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-languages=c c++ --with-arch=armv6 --with-fpu=vfp --with-float=hard --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-88-g8460611' --disable-sjlj-exceptions --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-libsanitizer --with-gmp=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpc=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-isl=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-cloog=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl -Bstatic -lstdc++ -Bdynamic -lm' --enable-threads=posix --enable-target-optspace --with-linker-hash-style=gnu --disable-nls --disable-multilib --with-local-prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-long-long --with-arch=armv6 --with-float=hard --with-fpu=vfp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-v' '-o' 'CMakeFiles/cmTC_45c50.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
+  ignore line: [ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/cc1 -quiet -v -iprefix /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/ -isysroot /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=armv6 -mfloat-abi=hard -mfpu=vfp -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_45c50.dir/CMakeCCompilerABI.c.o -Wall -version -o /tmp/ccC1hwCB.s]
+  ignore line: [GNU C (crosstool-NG crosstool-ng-1.22.0-88-g8460611) version 4.9.3 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.0.0  MPFR version 3.1.3  MPC version 1.0.3]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/include"]
+  ignore line: [ignoring nonexistent directory "/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot/include"]
+  ignore line: [ignoring duplicate directory "/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed"]
+  ignore line: [ignoring duplicate directory "/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include]
+  ignore line: [ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed]
+  ignore line: [ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include]
+  ignore line: [ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C (crosstool-NG crosstool-ng-1.22.0-88-g8460611) version 4.9.3 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.0.0  MPFR version 3.1.3  MPC version 1.0.3]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: ab6520190aab2eb5dd4fcb2a453dd165]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-v' '-o' 'CMakeFiles/cmTC_45c50.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
+  ignore line: [ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/as -v -march=armv6 -mfloat-abi=hard -mfpu=vfp -meabi=5 -o CMakeFiles/cmTC_45c50.dir/CMakeCCompilerABI.c.o /tmp/ccC1hwCB.s]
+  ignore line: [GNU assembler version 2.25.1 (arm-linux-gnueabihf) using BFD version (crosstool-NG crosstool-ng-1.22.0-88-g8460611) 2.25.1]
+  ignore line: [COMPILER_PATH=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-v' '-o' 'CMakeFiles/cmTC_45c50.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
+  ignore line: [Linking C executable cmTC_45c50]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45c50.dir/link.txt --verbose=1]
+  ignore line: [/dept/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -v -rdynamic CMakeFiles/cmTC_45c50.dir/CMakeCCompilerABI.c.o  -o cmTC_45c50 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/dept/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: /home/dom/projects/crosstool-ng/install/bin/.build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf --with-sysroot=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-languages=c c++ --with-arch=armv6 --with-fpu=vfp --with-float=hard --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-88-g8460611' --disable-sjlj-exceptions --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-libsanitizer --with-gmp=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpc=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-isl=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-cloog=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl -Bstatic -lstdc++ -Bdynamic -lm' --enable-threads=posix --enable-target-optspace --with-linker-hash-style=gnu --disable-nls --disable-multilib --with-local-prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-long-long --with-arch=armv6 --with-float=hard --with-fpu=vfp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) ]
+  ignore line: [COMPILER_PATH=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_45c50' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
+  link line: [ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2 -plugin /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so -plugin-opt=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUevbc5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_45c50 /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o -L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3 -L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc -L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib -L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib -L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_45c50.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+    arg [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccUevbc5.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_45c50] ==> ignore
+    arg [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o] ==> ignore
+    arg [-L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3] ==> dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3]
+    arg [-L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc] ==> dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc]
+    arg [-L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib] ==> dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib]
+    arg [-L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib] ==> dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib]
+    arg [-L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib] ==> dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_45c50.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o] ==> ignore
+    arg [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3] ==> [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3]
+  collapse library dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc] ==> [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc]
+  collapse library dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib] ==> [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/lib]
+  collapse library dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib] ==> [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/lib]
+  collapse library dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib] ==> [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3;/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc;/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/lib;/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/lib;/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /homes/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e51a0/fast && /usr/bin/make -f CMakeFiles/cmTC_e51a0.dir/build.make CMakeFiles/cmTC_e51a0.dir/build
+make[1]: Entering directory '/afs/glue.umd.edu/home/glue/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e51a0.dir/testCXXCompiler.cxx.o
+/dept/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -Wall -lstdc++ -o CMakeFiles/cmTC_e51a0.dir/testCXXCompiler.cxx.o -c /homes/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_e51a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e51a0.dir/link.txt --verbose=1
+/dept/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++       -rdynamic CMakeFiles/cmTC_e51a0.dir/testCXXCompiler.cxx.o  -o cmTC_e51a0 
+make[1]: Leaving directory '/afs/glue.umd.edu/home/glue/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /homes/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_09cfc/fast && /usr/bin/make -f CMakeFiles/cmTC_09cfc.dir/build.make CMakeFiles/cmTC_09cfc.dir/build
+make[1]: Entering directory '/afs/glue.umd.edu/home/glue/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_09cfc.dir/CMakeCXXCompilerABI.cpp.o
+/dept/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -Wall -lstdc++ -v -o CMakeFiles/cmTC_09cfc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/dept/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++
+Target: arm-linux-gnueabihf
+Configured with: /home/dom/projects/crosstool-ng/install/bin/.build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf --with-sysroot=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-arch=armv6 --with-fpu=vfp --with-float=hard --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-88-g8460611' --disable-sjlj-exceptions --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-libsanitizer --with-gmp=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpc=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-isl=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-cloog=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --with-linker-hash-style=gnu --disable-nls --disable-multilib --with-local-prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-long-long --with-arch=armv6 --with-float=hard --with-fpu=vfp
+Thread model: posix
+gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) 
+COLLECT_GCC_OPTIONS='-Wall' '-v' '-o' 'CMakeFiles/cmTC_09cfc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/cc1plus -quiet -v -iprefix /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/ -isysroot /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=armv6 -mfloat-abi=hard -mfpu=vfp -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_09cfc.dir/CMakeCXXCompilerABI.cpp.o -Wall -version -o /tmp/ccUzgLSz.s
+GNU C++ (crosstool-NG crosstool-ng-1.22.0-88-g8460611) version 4.9.3 (arm-linux-gnueabihf)
+	compiled by GNU C version 4.8.4, GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3"
+ignoring duplicate directory "/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3/arm-linux-gnueabihf"
+ignoring duplicate directory "/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3/backward"
+ignoring duplicate directory "/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/include"
+ignoring nonexistent directory "/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot/include"
+ignoring duplicate directory "/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed"
+ignoring duplicate directory "/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3
+ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3/arm-linux-gnueabihf
+ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3/backward
+ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include
+ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed
+ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include
+ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/include
+End of search list.
+GNU C++ (crosstool-NG crosstool-ng-1.22.0-88-g8460611) version 4.9.3 (arm-linux-gnueabihf)
+	compiled by GNU C version 4.8.4, GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 5490cb547d5e63dcf8255bc3ba4b9a59
+COLLECT_GCC_OPTIONS='-Wall' '-v' '-o' 'CMakeFiles/cmTC_09cfc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/as -v -march=armv6 -mfloat-abi=hard -mfpu=vfp -meabi=5 -o CMakeFiles/cmTC_09cfc.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccUzgLSz.s
+GNU assembler version 2.25.1 (arm-linux-gnueabihf) using BFD version (crosstool-NG crosstool-ng-1.22.0-88-g8460611) 2.25.1
+COMPILER_PATH=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-Wall' '-v' '-o' 'CMakeFiles/cmTC_09cfc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+Linking CXX executable cmTC_09cfc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09cfc.dir/link.txt --verbose=1
+/dept/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++      -v -rdynamic CMakeFiles/cmTC_09cfc.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_09cfc 
+Using built-in specs.
+COLLECT_GCC=/dept/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++
+COLLECT_LTO_WRAPPER=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: /home/dom/projects/crosstool-ng/install/bin/.build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf --with-sysroot=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-arch=armv6 --with-fpu=vfp --with-float=hard --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-88-g8460611' --disable-sjlj-exceptions --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-libsanitizer --with-gmp=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpc=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-isl=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-cloog=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --with-linker-hash-style=gnu --disable-nls --disable-multilib --with-local-prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-long-long --with-arch=armv6 --with-float=hard --with-fpu=vfp
+Thread model: posix
+gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) 
+COMPILER_PATH=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_09cfc' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2 -plugin /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so -plugin-opt=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbFNZo5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_09cfc /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o -L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3 -L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc -L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib -L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib -L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_09cfc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o
+make[1]: Leaving directory '/afs/glue.umd.edu/home/glue/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3]
+    add: [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3/arm-linux-gnueabihf]
+    add: [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3/backward]
+    add: [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include]
+    add: [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed]
+    add: [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include]
+    add: [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3] ==> [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/include/c++/4.9.3]
+  collapse include dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3/arm-linux-gnueabihf] ==> [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/include/c++/4.9.3/arm-linux-gnueabihf]
+  collapse include dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3/backward] ==> [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/include/c++/4.9.3/backward]
+  collapse include dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include] ==> [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3/include]
+  collapse include dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed] ==> [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed]
+  collapse include dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include] ==> [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/include]
+  collapse include dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/include] ==> [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/include]
+  implicit include dirs: [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/include/c++/4.9.3;/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/include/c++/4.9.3/arm-linux-gnueabihf;/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/include/c++/4.9.3/backward;/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3/include;/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed;/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/include;/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /homes/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_09cfc/fast && /usr/bin/make -f CMakeFiles/cmTC_09cfc.dir/build.make CMakeFiles/cmTC_09cfc.dir/build]
+  ignore line: [make[1]: Entering directory '/afs/glue.umd.edu/home/glue/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_09cfc.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/dept/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -Wall -lstdc++ -v -o CMakeFiles/cmTC_09cfc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/dept/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: /home/dom/projects/crosstool-ng/install/bin/.build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf --with-sysroot=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-languages=c c++ --with-arch=armv6 --with-fpu=vfp --with-float=hard --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-88-g8460611' --disable-sjlj-exceptions --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-libsanitizer --with-gmp=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpc=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-isl=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-cloog=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl -Bstatic -lstdc++ -Bdynamic -lm' --enable-threads=posix --enable-target-optspace --with-linker-hash-style=gnu --disable-nls --disable-multilib --with-local-prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-long-long --with-arch=armv6 --with-float=hard --with-fpu=vfp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-v' '-o' 'CMakeFiles/cmTC_09cfc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
+  ignore line: [ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/cc1plus -quiet -v -iprefix /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/ -isysroot /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=armv6 -mfloat-abi=hard -mfpu=vfp -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_09cfc.dir/CMakeCXXCompilerABI.cpp.o -Wall -version -o /tmp/ccUzgLSz.s]
+  ignore line: [GNU C++ (crosstool-NG crosstool-ng-1.22.0-88-g8460611) version 4.9.3 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.0.0  MPFR version 3.1.3  MPC version 1.0.3]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3"]
+  ignore line: [ignoring duplicate directory "/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3/arm-linux-gnueabihf"]
+  ignore line: [ignoring duplicate directory "/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3/backward"]
+  ignore line: [ignoring duplicate directory "/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/include"]
+  ignore line: [ignoring nonexistent directory "/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot/include"]
+  ignore line: [ignoring duplicate directory "/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed"]
+  ignore line: [ignoring duplicate directory "/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3]
+  ignore line: [ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3/arm-linux-gnueabihf]
+  ignore line: [ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3/backward]
+  ignore line: [ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include]
+  ignore line: [ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed]
+  ignore line: [ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include]
+  ignore line: [ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++ (crosstool-NG crosstool-ng-1.22.0-88-g8460611) version 4.9.3 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.0.0  MPFR version 3.1.3  MPC version 1.0.3]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 5490cb547d5e63dcf8255bc3ba4b9a59]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-v' '-o' 'CMakeFiles/cmTC_09cfc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
+  ignore line: [ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/as -v -march=armv6 -mfloat-abi=hard -mfpu=vfp -meabi=5 -o CMakeFiles/cmTC_09cfc.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccUzgLSz.s]
+  ignore line: [GNU assembler version 2.25.1 (arm-linux-gnueabihf) using BFD version (crosstool-NG crosstool-ng-1.22.0-88-g8460611) 2.25.1]
+  ignore line: [COMPILER_PATH=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-v' '-o' 'CMakeFiles/cmTC_09cfc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
+  ignore line: [Linking CXX executable cmTC_09cfc]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09cfc.dir/link.txt --verbose=1]
+  ignore line: [/dept/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++      -v -rdynamic CMakeFiles/cmTC_09cfc.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_09cfc ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/dept/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: /home/dom/projects/crosstool-ng/install/bin/.build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf --with-sysroot=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-languages=c c++ --with-arch=armv6 --with-fpu=vfp --with-float=hard --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-88-g8460611' --disable-sjlj-exceptions --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-libsanitizer --with-gmp=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpc=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-isl=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-cloog=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl -Bstatic -lstdc++ -Bdynamic -lm' --enable-threads=posix --enable-target-optspace --with-linker-hash-style=gnu --disable-nls --disable-multilib --with-local-prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-long-long --with-arch=armv6 --with-float=hard --with-fpu=vfp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) ]
+  ignore line: [COMPILER_PATH=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_09cfc' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
+  link line: [ /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2 -plugin /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so -plugin-opt=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbFNZo5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_09cfc /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o -L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3 -L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc -L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib -L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib -L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_09cfc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o /afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+    arg [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccbFNZo5.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_09cfc] ==> ignore
+    arg [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o] ==> ignore
+    arg [-L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3] ==> dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3]
+    arg [-L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc] ==> dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc]
+    arg [-L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib] ==> dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib]
+    arg [-L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib] ==> dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib]
+    arg [-L/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib] ==> dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_09cfc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o] ==> ignore
+    arg [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3] ==> [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3]
+  collapse library dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc] ==> [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc]
+  collapse library dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib] ==> [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/lib]
+  collapse library dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib] ==> [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/lib]
+  collapse library dir [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib] ==> [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3;/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc;/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/lib;/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/lib;/afs/glue.umd.edu/department/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /homes/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a7905/fast && /usr/bin/make -f CMakeFiles/cmTC_a7905.dir/build.make CMakeFiles/cmTC_a7905.dir/build
+make[1]: Entering directory '/afs/glue.umd.edu/home/glue/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a7905.dir/feature_tests.cxx.o
+/dept/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -Wall -lstdc++ -std=c++14 -o CMakeFiles/cmTC_a7905.dir/feature_tests.cxx.o -c /homes/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a7905
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7905.dir/link.txt --verbose=1
+/dept/enee/software/dspcad/enee408m/raspi-tools/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++       -rdynamic CMakeFiles/cmTC_a7905.dir/feature_tests.cxx.o  -o cmTC_a7905 
+make[1]: Leaving directory '/afs/glue.umd.edu/home/glue/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/CMakeTmp'
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_variable_templates

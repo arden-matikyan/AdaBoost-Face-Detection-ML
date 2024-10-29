@@ -1,0 +1,7 @@
+/homes/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/install/strip.dir
+/homes/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/install/local.dir
+/homes/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/install.dir
+/homes/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/list_install_components.dir
+/homes/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/rebuild_cache.dir
+/homes/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/edit_cache.dir
+/homes/a/m/amatikya/home/enee408m/monday/team3/final/src/build-raspi/CMakeFiles/classifier.dir

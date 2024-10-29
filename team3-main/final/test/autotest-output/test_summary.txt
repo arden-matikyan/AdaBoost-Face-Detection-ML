@@ -1,0 +1,5 @@
+Test count: 1; test failures: 1; error output mismatches: 1
+Test failures: 
+/homes/a/m/amatikya/home/enee408m/Sun/team3/final/test/test01
+Error comparison failures: 
+/homes/a/m/amatikya/home/enee408m/Sun/team3/final/test/test01

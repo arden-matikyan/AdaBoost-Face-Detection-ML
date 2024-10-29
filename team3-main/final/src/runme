@@ -1,0 +1,4 @@
+enee408mim2txt thumbs.png
+
+./driver.exe rmag.txt thumbs.txt output.txt
+

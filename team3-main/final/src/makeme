@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+#enee408m_makeme
+
+
+cd ../
+cmake .
+make 

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+directory="."  
+
+for image in "$directory"/*.png; do
+	
+	base_name=$(basename "$image")
+
+	enee408mim2txt "$base_name" grayscale	
+	
+done

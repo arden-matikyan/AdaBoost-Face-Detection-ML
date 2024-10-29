@@ -1,0 +1,118 @@
+#include <iostream>
+#include "strong_classifier.h"
+#include "featureUtil.h"
+
+
+// constructor
+strong_classifier::strong_classifier(welt_c_fifo_pointer config_files_in, 
+            welt_c_fifo_pointer img_file_in,
+		        welt_c_fifo_pointer img_file_out) {
+
+  config_in = config_files_in;
+  img_in = img_file_in;
+  img_out = img_file_out;
+
+}
+
+bool classifier::enable() {
+  bool result = false;
+  switch (mode) {
+  case CONFIGURE: {
+    result = true;
+    break;
+  }
+  case READ: {
+    result = true;
+    break;
+  }
+  case CLASSIFY: {
+    result = true;
+    break;
+  }
+  case FALSE: {
+    result = true;
+    break;
+  }
+  case TRUE: {
+    result = true;
+    break;
+  }
+  default: {
+    result = false;
+    break;
+  }
+    return result;
+  }
+}
+
+void strong_classifier::invoke() {
+  switch (mode) {
+  case CONFIGURE: {
+    // Read in configuration files (SC vector) from training adaBoost algorithm on training set
+    
+    // Used for generating all features in order to locate a specific feature.
+    vector<tuple<FeatureType, int, int, int, int>> featureConfigs = FeatureUtil::generateFeatureConfigs(24);
+    mode = READ;  
+    break;
+  }
+  case READ: {
+    
+    // Read in image file from actor output.
+    welt_c_fifo_read(img_file_in, &info_img);
+    printf("Image Index: %d\n", info_img->index);
+    printf("Face Classification: %c\n", info_img->face_indicator);
+    mode = CLASSIFY;
+    break;
+  }
+  case CLASSIFY: {
+      
+      // Insert classify code here:
+
+      // Depending on what the classifiers classify the image as, the actor will change modes respectively.
+      if(info_img->face_indicator == Y){
+        mode = TRUE;
+      } else {
+        mode = FALSE;
+      }
+    break;
+  }
+  case FALSE: {
+    
+    
+    mode = READ;
+    break;
+  }
+  case TRUE: {
+
+    mode = READ;  
+    break;
+  }
+  default: {
+
+    break;
+  }
+  }
+}
+
+void strong_classifier::reset() {
+
+}
+
+void strong_classifier::connect(welt_cpp_graph *graph) {
+    int port_index;
+    int direction;
+
+    direction = GRAPH_IN_CONN_DIRECTION;
+    port_index = 0;
+    graph->add_connection(this, port_index, direction);
+
+    direction = GRAPH_OUT_CONN_DIRECTION;
+    port_index = 1;
+    graph->add_connection(this, port_index, direction);
+
+    direction = GRAPH_OUT_CONN_DIRECTION;
+    port_index = 1;
+    graph->add_connection(this, port_index, direction);
+}
+
+strong_classifier::~strong_classifier() {}
